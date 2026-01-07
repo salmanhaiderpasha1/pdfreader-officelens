@@ -2,135 +2,187 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy | PDF Reader: PDF Viewer App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy – PDF Reader: PDF Viewer App</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.65; margin: 0; background: #f9fafb; color: #111827; }
-    .container { max-width: 980px; margin: 0 auto; padding: 40px 20px; background: #ffffff; }
-    h1, h2, h3 { color: #0f172a; }
-    h1 { font-size: 2.2rem; margin-bottom: 8px; }
-    .meta { color: #6b7280; font-size: 0.95rem; margin-bottom: 26px; }
-    h2 { font-size: 1.5rem; margin-top: 34px; border-bottom: 1px solid #e5e7eb; padding-bottom: 6px; }
-    h3 { font-size: 1.1rem; margin-top: 18px; }
-    p, li { font-size: 0.98rem; color: #374151; }
-    ul { padding-left: 20px; }
-    .card { border: 1px solid #e5e7eb; border-radius: 14px; padding: 14px 16px; background: #ffffff; margin: 14px 0; }
-    a { color: #2563eb; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid #e5e7eb; font-size: 0.9rem; color: #6b7280; }
+    :root{
+      --bg:#0f172a;
+      --card:#111c33;
+      --text:#e5e7eb;
+      --muted:#a7b0c0;
+      --border:rgba(255,255,255,.12);
+      --link:#93c5fd;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container{
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 28px 16px 48px;
+    }
+    .card{
+      background: rgba(255,255,255,.03);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 18px;
+    }
+    h1{
+      font-size: 26px;
+      margin: 0 0 6px;
+      letter-spacing: .2px;
+    }
+    .meta{
+      color: var(--muted);
+      margin: 0 0 14px;
+      font-size: 14px;
+    }
+    h2{
+      font-size: 18px;
+      margin: 18px 0 8px;
+    }
+    h3{
+      font-size: 15px;
+      margin: 12px 0 6px;
+    }
+    p, li{color: var(--muted)}
+    ul{margin: 8px 0 0 18px}
+    a{color: var(--link); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .divider{
+      height:1px;
+      background: var(--border);
+      margin: 14px 0;
+    }
+    .footer{
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 14px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Privacy Policy – PDF Reader: PDF Viewer App</h1>
-    <div class="meta">Last Updated: January 2026</div>
-
-    <h2>Introduction</h2>
-    <p>
-      At <strong>Office Lens: Android Tool, Translate, Scanner, PDF</strong>, your privacy is our top priority.
-      Our <strong>PDF Reader: PDF Viewer App</strong> (the “App”) is designed to provide seamless scanning, viewing,
-      and editing of PDF, Word, Excel, PowerPoint, and text documents.
-      By using the App, you acknowledge that you have read, understood, and agreed to the practices described here.
-    </p>
-
-    <h2>Information We Collect</h2>
-    <p>
-      We collect multiple types of information to provide the App, ensure security, display ads,
-      analyze performance, and improve user experience.
-    </p>
-
-    <h3>1. Information You Provide Directly</h3>
-    <p>
-      When you scan, upload, or edit a document, the App processes your files and data.
-      If you log in using <strong>Google Sign-In</strong>, we may collect your name, email address,
-      and profile photo. We do not access your Google password.
-    </p>
-
-    <h3>2. Automatically Collected Information</h3>
-    <p>
-      The App may automatically collect information such as device type, operating system version,
-      IP address, advertising ID, app usage patterns, and crash reports.
-      This data helps us improve the App, optimize performance, and show relevant ads.
-    </p>
-
-    <h3>3. Sensitive Permissions</h3>
-    <p>
-      The App requires camera access strictly for scanning documents.
-      The camera is never used in the background without your permission.
-    </p>
-
-    <h2>How We Use Your Information</h2>
-    <ul>
-      <li><strong>Core functionality:</strong> scanning, viewing, and editing documents</li>
-      <li><strong>Authentication:</strong> enabling Google Sign-In</li>
-      <li><strong>Analytics & Performance:</strong> crash reports and feature improvement</li>
-      <li><strong>Advertising & Marketing:</strong> serving and analyzing ads</li>
-      <li><strong>Security:</strong> fraud prevention and abuse detection</li>
-    </ul>
-
-    <h2>Third-Party Services and Sharing</h2>
-    <p>
-      We share data with trusted third-party services for analytics and advertising. These services
-      have their own privacy policies:
-    </p>
     <div class="card">
-      <ul style="margin:0;">
-        <li><strong>Google AdMob:</strong> https://www.google.com/policies/privacy/</li>
-        <li><strong>Meta Audience Network:</strong> https://www.facebook.com/privacy/policy/</li>
-        <li><strong>AppLovin:</strong> https://legal.applovin.com/privacy/</li>
-        <li><strong>Firebase Analytics & Crashlytics:</strong> https://firebase.google.com/support/privacy</li>
+      <h1>PRIVACY POLICY – PDF Reader: PDF Viewer App (Office Lens: Android Tool, Translate, Scanner, PDF)</h1>
+      <p class="meta"><strong>Last Updated:</strong> January 2026</p>
+
+      <h2>Introduction</h2>
+      <p>
+        At Office Lens: Android Tool, Translate, Scanner, PDF, your privacy is our top priority.
+        Our PDF Reader: PDF Viewer App app (the “App”) is designed to provide seamless scanning,
+        viewing, and editing of PDF, Word, Excel, PowerPoint, and text documents.
+        We understand your data matters, so we’ve created this extremely detailed Privacy Policy
+        to explain everything we do with your information.
+        By using the App, you acknowledge that you have read, understood, and agreed to the practices described here.
+      </p>
+
+      <h2>Information We Collect</h2>
+      <p>
+        We collect multiple types of information to provide the App, ensure security, display ads,
+        analyze performance, and improve user experience.
+      </p>
+
+      <h3>1. Information You Provide Directly</h3>
+      <p>
+        When you scan, upload, or edit a document, the App processes your files and data.
+        If you log in using Google Sign-In, we may collect your name, email address, and profile photo.
+        We do not access your Google password. All information you provide is used to make the App functional,
+        personalized, and secure.
+      </p>
+
+      <h3>2. Automatically Collected Information</h3>
+      <p>
+        The App may automatically collect information such as your device type, operating system version, IP address,
+        advertising ID, app usage patterns, and crash reports. This data helps us improve the App, optimize performance,
+        and show relevant ads.
+      </p>
+
+      <h3>3. Sensitive Permissions</h3>
+      <p>
+        The App requires camera access strictly for scanning documents. The camera is never used in the background without your permission.
+      </p>
+
+      <h2>How We Use Your Information</h2>
+      <p>Your information is used for:</p>
+      <ul>
+        <li>Core functionality: scanning, viewing, and editing PDF, Word, Excel, PowerPoint, and text files</li>
+        <li>Authentication: enabling Google Sign-In for account access</li>
+        <li>Analytics &amp; Performance: crash reports, usage statistics, feature improvement</li>
+        <li>Advertising &amp; Marketing: serving personalized ads, analyzing campaigns</li>
+        <li>Security &amp; Fraud Detection: protecting against abuse or unauthorized access</li>
       </ul>
+
+      <h2>Third-Party Services and Sharing</h2>
+      <p>
+        We share data with trusted third-party services for operation, analytics, and advertising.
+        These services have their own privacy policies:
+      </p>
+      <ul>
+        <li>Google AdMob: <a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener">https://www.google.com/policies/privacy/</a></li>
+        <li>Meta Audience Network: <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener">https://www.facebook.com/privacy/policy/</a></li>
+        <li>AppLovin: <a href="https://legal.applovin.com/privacy/" target="_blank" rel="noopener">https://legal.applovin.com/privacy/</a></li>
+        <li>Firebase Analytics &amp; Crashlytics: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a></li>
+      </ul>
+      <p>
+        We never sell your personal data. All shared data is strictly for App operation, performance improvement, and ad personalization.
+      </p>
+
+      <h2>Data Retention</h2>
+      <p>
+        We retain your data only as long as necessary. Scanned or uploaded files remain on your device unless you choose to upload or share them.
+        Analytics and crash data are kept to help improve the App. You may request deletion of your personal information at any time by contacting
+        <a href="mailto:mindmovertech@gmail.com">mindmovertech@gmail.com</a>.
+      </p>
+
+      <h2>Children’s Privacy</h2>
+      <p>
+        The App is not directed at children under 13, and we do not knowingly collect personal information from children.
+        If a child has provided information, please contact us for immediate removal.
+      </p>
+
+      <h2>User Rights (GDPR &amp; CCPA)</h2>
+      <p>You have the right to:</p>
+      <ul>
+        <li>Access, review, and obtain a copy of your data</li>
+        <li>Correct inaccurate information</li>
+        <li>Request deletion of your personal data</li>
+        <li>Withdraw consent for data processing</li>
+        <li>Opt-out of personalized advertising via device settings</li>
+      </ul>
+      <p>Requests can be sent to <a href="mailto:mindmovertech@gmail.com">mindmovertech@gmail.com</a>.</p>
+
+      <h2>Data Security</h2>
+      <p>
+        We implement industry-standard technical and organizational measures to safeguard your data.
+        However, no system is 100% secure, and you should use the App responsibly.
+      </p>
+
+      <h2>Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy occasionally. Updates will be posted within the App and on the Play Store.
+        Continued use of the App constitutes acceptance of the updated Privacy Policy.
+      </p>
+
+      <h2>Contact Information</h2>
+      <p>
+        For questions, concerns, or data deletion requests, contact:<br />
+        Office Lens: Android Tool, Translate, Scanner, PDF<br />
+        📧 Email: <a href="mailto:mindmovertech@gmail.com">mindmovertech@gmail.com</a>
+      </p>
+
+      <div class="divider"></div>
+      <p class="footer">© <span id="y"></span> Office Lens: Android Tool, Translate, Scanner, PDF</p>
     </div>
-    <p>
-      We never sell your personal data. Shared data is used strictly for App operation,
-      performance improvement, and ad personalization.
-    </p>
-
-    <h2>Data Retention</h2>
-    <p>
-      Data is retained only as long as necessary. Files remain on your device unless you choose
-      to upload or share them. Analytics and crash data are retained to improve the App.
-      You may request deletion of personal information at any time by contacting
-      <a href="mailto:mindmovertech@gmail.com">mindmovertech@gmail.com</a>.
-    </p>
-
-    <h2>Children’s Privacy</h2>
-    <p>
-      The App is not directed at children under 13. We do not knowingly collect personal
-      information from children. If a child has provided information, contact us for removal.
-    </p>
-
-    <h2>User Rights (GDPR & CCPA)</h2>
-    <ul>
-      <li>Access and obtain a copy of your data</li>
-      <li>Correct inaccurate information</li>
-      <li>Request deletion of personal data</li>
-      <li>Withdraw consent for processing</li>
-      <li>Opt-out of personalized advertising via device settings</li>
-    </ul>
-    <p>Requests can be sent to <a href="mailto:mindmovertech@gmail.com">mindmovertech@gmail.com</a>.</p>
-
-    <h2>Data Security</h2>
-    <p>
-      We implement industry-standard security measures to safeguard your data.
-      However, no system is completely secure.
-    </p>
-
-    <h2>Changes to This Privacy Policy</h2>
-    <p>
-      We may update this Privacy Policy periodically. Continued use of the App constitutes
-      acceptance of the updated policy.
-    </p>
-
-    <h2>Contact Information</h2>
-    <p>
-      <strong>Office Lens: Android Tool, Translate, Scanner, PDF</strong><br/>
-      Email: <a href="mailto:mindmovertech@gmail.com">mindmovertech@gmail.com</a>
-    </p>
-
-    <footer>
-      &copy; 2026 Office Lens. All rights reserved.
-    </footer>
   </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
